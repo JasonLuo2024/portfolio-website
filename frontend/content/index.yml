@@ -4,8 +4,7 @@ seo:
 
 title: "Hey, I'm Haoming Luo — Cloud & Data Platform Engineer"
 
-description: "I design and build scalable cloud-native data platforms, event-driven architectures, and AI-powered systems. AWS-certified with a strong focus on performance, cost optimization, and real-world production systems."
-
+description: "Cloud and data platform engineer specializing in scalable, cloud-native systems, event-driven architectures, and AI-powered applications. AWS Certified (SAP, SAA, DVA, DEA) and HashiCorp Terraform Associate, focused on performance, cost optimization, and production-grade systems."
 hero:
   links:
     - label: "View GitHub"
@@ -15,92 +14,73 @@ hero:
       to: https://linkedin.com/in/HaomingLuo
       color: "neutral"
 
-about:
-  title: "About Me"
-  description: |
-    I'm an AWS-certified software developer with 3+ years of experience building cloud-native data platforms and distributed systems.
-    I specialize in designing scalable, event-driven architectures and optimizing data pipelines for performance and cost efficiency.
-
-    My work includes reducing infrastructure costs by up to 85%, improving processing performance by 90%+, and building production-ready systems using AWS, Terraform, and modern full-stack technologies.
-
 experience:
   title: Work Experience
   items:
-    - position: "Software Developer at"
+    - position: "Software Developer"
       date: "May 2024 – Present"
       company:
-        name: Angler Solutions Inc.
-        logo: "i-simple-icons-amazonaws"
-        color: "#FF9900"
+        name: "Angler Solutions Inc."
+        logo: "/logos/angler.jpg"
+        color: "#112256"
+      highlights:
+        - "Designed event-driven data pipelines using S3, SQS, Lambda, ECS, and DynamoDB"
+        - "Reduced storage size by 40× by migrating JSON datasets to Parquet"
+        - "Cut AWS infrastructure costs by 75–85% using serverless architecture"
+        - "Implemented Cognito authentication with JWT-based RBAC"
+        - "Improved processing performance by over 90% through parallelization and caching"
+      tech:
+        - AWS
+        - Lambda
+        - ECS
+        - DynamoDB
+        - FastAPI
+        - Nuxt
 
-    - position: "Machine Learning Developer at"
+    - position: "Machine Learning Developer"
       date: "Sep 2023 – Present"
       company:
-        name: Visual and Analytic Computing Lab
-        logo: "i-simple-icons-pytorch"
-        color: "#EE4C2C"
+        name: "Visual and Analytic Computing Lab"
+        logo: "/logos/lab.png"
+        color: "#3776AB"
+      highlights:
+        - "Implemented CNN models for breast cancer detection using PyTorch"
+        - "Optimized training pipelines with CUDA acceleration"
+        - "Supported research infrastructure on MUN supercomputer (CAIR)"
+      tech:
+        - PyTorch
+        - CUDA
+        - Python
 
-    - position: "Research Assistant at"
+    - position: "Research Assistant"
       date: "May 2023 – Sep 2023"
       company:
-        name: Visual and Analytic Computing Lab
-        logo: "i-simple-icons-python"
-        color: "#3776AB"
+        name: "Visual and Analytic Computing Lab"
+        logo: "/logos/mun.jpg"
+        color: "#EE4C2C"
+      highlights:
+        - "Built CNN-based classification pipelines for medical imaging"
+        - "Reduced training time by ~90% through batch processing optimization"
+        - "Used GANs to balance datasets and improve model performance"
+      tech:
+        - PyTorch
+        - GAN
+        - MLflow
 
-projects:
-  title: "Key Projects"
+certifications:
+  title: Certifications
   items:
-    - title: "Cloud Lakehouse Data Platform"
-      description: "Designed and implemented a cloud-native lakehouse architecture on AWS using S3, Spark, and Terraform. Built scalable pipelines converting raw data into optimized Parquet datasets for analytics."
+    - name: AWS Solutions Architect – Professional
+      image: /certs/aws-sa-pro.png
 
-    - title: "Event-Driven Data Pipeline System"
-      description: "Built production-grade pipelines using S3, SQS, Lambda, ECS, and DynamoDB. Achieved 40× storage reduction and 90% performance improvement."
+    - name: AWS Solutions Architect – Associate
+      image: /certs/aws-sa-associate.png
 
-    - title: "AI & ML Research (CNN + GAN)"
-      description: "Implemented deep learning models using PyTorch and CUDA for medical image analysis. Optimized training pipelines and improved dataset balance using GANs."
+    - name: AWS Developer – Associate
+      image: /certs/aws-dev.png
 
-testimonials:
-  - quote: "Haoming consistently delivers high-quality, scalable solutions. His ability to design efficient cloud architectures and optimize performance makes him a valuable engineer in any team."
-    author:
-      name: "Team Lead"
-      description: "Angler Solutions Inc."
+    - name: AWS Data Engineer – Associate
+      image: /certs/aws-data.png
 
-  - quote: "Strong problem-solving skills and deep technical knowledge in cloud systems and machine learning. A highly capable developer with great attention to detail."
-    author:
-      name: "Research Supervisor"
-      description: "Memorial University"
-
-faq:
-  title: Frequently Asked Questions
-  categories:
-    - title: Technical Expertise
-      questions:
-        - label: What technologies do you specialize in?
-          content: |
-            I specialize in AWS cloud services, Terraform, distributed systems, and full-stack development using Nuxt.js and FastAPI. I also have experience in machine learning using PyTorch and CUDA.
-
-        - label: What kind of systems do you build?
-          content: |
-            I build scalable cloud-native platforms, event-driven architectures, and data processing systems designed for performance, reliability, and cost efficiency.
-
-    - title: Work & Collaboration
-      questions:
-        - label: Are you open to opportunities?
-          content: |
-            Yes, I'm open to opportunities in cloud engineering, data platform development, and backend systems design.
-
-        - label: What makes your work stand out?
-          content: |
-            I focus on real-world impact — optimizing systems for performance, scalability, and cost. My solutions are production-ready and built with long-term maintainability in mind.
-
-blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
-  items:
-    - title: "Building Scalable AWS Data Pipelines"
-      description: "How I designed event-driven pipelines using S3, SQS, Lambda, and ECS."
-      image: "/blog/1.jpg"
-
-    - title: "Optimizing Cloud Costs by 80%"
-      description: "Real-world strategies to reduce AWS infrastructure costs using serverless architecture."
-      image: "/blog/2.jpg"
+    - name: Terraform Associate
+      image: /certs/terraform.png

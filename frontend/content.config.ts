@@ -57,6 +57,15 @@ export default defineContentConfig({
             })
           }))
         }),
+        certifications: z.object({
+          title: z.string(),
+          items: z.array(
+            z.object({
+              name: z.string(),
+              image: z.string()
+            })
+          )
+        }).optional(),
         testimonials: z.array(createTestimonialSchema()),
         blog: createBaseSchema(),
         faq: createBaseSchema().extend({
