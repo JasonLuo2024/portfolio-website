@@ -34,11 +34,10 @@ defineProps<{
           delay: 0.1,
         }"
       >
-        <UColorModeAvatar
-          class="size-18 ring ring-default ring-offset-3 ring-offset-bg"
-          :light="global.picture?.light!"
-          :dark="global.picture?.dark!"
-          :alt="global.picture?.alt!"
+        <img
+          src="/images/profile.png"
+          alt="Haoming Luo"
+          class="size-36 rounded-lg object-cover ring ring-default ring-offset-3"
         />
       </Motion>
     </template>
