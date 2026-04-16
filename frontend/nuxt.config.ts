@@ -1,11 +1,38 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2026-04-14',
-  ssr: false,
-  modules: ['@nuxt/ui'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/image',
+    '@nuxt/ui',
+    '@nuxt/content',
+    '@vueuse/nuxt',
+    'nuxt-og-image',
+    'motion-v/nuxt'
+  ],
+
+  devtools: {
+    enabled: true
+  },
+
   css: ['~/assets/css/main.css'],
-  ui: {
-    theme: {
-      colors: ['primary', 'neutral']
+
+  compatibilityDate: '2024-11-01',
+
+  nitro: {
+    prerender: {
+      routes: [
+        '/'
+      ],
+      crawlLinks: true
+    }
+  },
+
+  eslint: {
+    config: {
+      stylistic: {
+        commaDangle: 'never',
+        braceStyle: '1tbs'
+      }
     }
   }
 })
