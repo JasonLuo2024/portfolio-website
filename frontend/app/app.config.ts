@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: '/images/profile.jpeg', // replace with your own image
-      light: '/images/profile.jpeg',
+      dark: '/images/profile.png', // replace with your own image
+      light: '/images/profile.png',
       alt: 'Haoming Luo profile picture'
     },
     meetingLink: 'https://cal.com/haomingluo', // update when ready
