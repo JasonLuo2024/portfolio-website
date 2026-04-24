@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "bucket_name" {
-  default = "my-resume-site"
+  default = "resume-haomingluo-2024"
 }
 
 variable "domain_name" {
