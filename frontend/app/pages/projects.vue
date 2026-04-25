@@ -52,9 +52,9 @@ useSeoMeta({
         </div>
       </template>
     </UPageHero>
-    <!-- <UPageSection
+    <UPageSection
       :ui="{
-        container: 'pt-0!'
+        container: 'pt-0!',
       }"
     >
       <Motion
@@ -74,7 +74,7 @@ useSeoMeta({
           :reverse="index % 2 === 1"
           class="group"
           :ui="{
-            wrapper: 'max-sm:order-last'
+            wrapper: 'max-sm:order-last',
           }"
         >
           <template #leading>
@@ -98,9 +98,9 @@ useSeoMeta({
             :src="project.image"
             :alt="project.title"
             class="object-cover w-full h-48 rounded-lg"
-          >
+          />
         </UPageCard>
       </Motion>
-    </UPageSection> -->
+    </UPageSection>
   </UPage>
 </template>
