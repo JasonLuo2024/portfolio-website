@@ -1,0 +1,6 @@
+title: NL Road Test Monitor
+description: A Python monitor that watches Newfoundland & Labrador Motor Registration Division road test appointment availability and emails you the moment a slot opens up.
+image: https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1470&q=80
+url: "https://github.com/JasonLuo2024/NLRoadTestMonitor"
+tags: ["Python", "Automation", "Web Scraping"]
+date: "2026-06-15"

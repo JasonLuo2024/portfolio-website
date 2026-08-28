@@ -6,7 +6,7 @@ export default defineAppConfig({
       alt: 'Haoming Luo profile picture'
     },
     meetingLink: 'https://cal.com/haomingluo', // update when ready
-    email: 'haomingluo@gmail.com', // or your custom domain email
+    email: 'jasonhaomingluo@gmail.com', // for collaboration or business inquiries
     available: true
   },
 
@@ -29,6 +29,11 @@ export default defineAppConfig({
     credits: `© ${new Date().getFullYear()} Haoming Luo.`,
     colorMode: true,
     links: [
+      {
+        icon: 'i-lucide-mail',
+        to: 'mailto:jasonhaomingluo@gmail.com',
+        'aria-label': 'Email'
+      },
       {
         icon: 'i-simple-icons-linkedin',
         to: 'https://linkedin.com/in/haomingluo', // update

@@ -4,6 +4,14 @@ import type { IndexCollectionItem } from "@nuxt/content";
 defineProps<{
   page: IndexCollectionItem;
 }>();
+
+const colorMode = useColorMode();
+
+function companyColor(company: { color?: string; darkColor?: string }) {
+  return colorMode.value === "dark" && company.darkColor
+    ? company.darkColor
+    : company.color;
+}
 </script>
 
 <template>
@@ -39,7 +47,7 @@ defineProps<{
                   :alt="experience.company.name"
                   class="h-5 w-auto object-contain rounded-sm bg-white px-1"
                 />
-                <span :style="{ color: experience.company.color }">
+                <span :style="{ color: companyColor(experience.company) }">
                   {{ experience.company.name }}
                 </span>
               </div>

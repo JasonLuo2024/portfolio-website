@@ -48,7 +48,7 @@ useSeoMeta({
           />
 
           <!-- Email -->
-          <UButton label="Email Me" :to="`mailto:hluo@mun.ca`" />
+          <UButton label="Email Me" :to="`mailto:${global.email}`" />
         </div>
       </template>
     </UPageHero>

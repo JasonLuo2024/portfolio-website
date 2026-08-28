@@ -23,6 +23,7 @@ experience:
         name: "Angler Solutions Inc."
         logo: "/logos/angler.jpg"
         color: "#112256"
+        darkColor: "#7C93E3"
       highlights:
         - "Designed event-driven data pipelines using S3, SQS, Lambda, ECS, and DynamoDB"
         - "Reduced storage size by 40× by migrating JSON datasets to Parquet"
